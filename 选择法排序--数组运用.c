@@ -8,7 +8,7 @@ int main()
 	{
 		k=i;
 		for(j=i+1;j<6;j++)
-		 if(a[j]<a[k]) k=j;//k指向小的数 
+		 if(a[j]<a[k]) k=j;
 		if(i!=k)
 		{ x=a[i];a[i]=a[k];a[k]=x;}	 
 	}
